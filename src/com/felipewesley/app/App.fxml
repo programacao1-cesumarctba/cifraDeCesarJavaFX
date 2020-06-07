@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.felipewesley.app.AppController">
+   <children>
+      <Button layoutX="79.0" layoutY="164.0" mnemonicParsing="false" onAction="#onBtnClickEncrpytText" prefHeight="25.0" prefWidth="120.0" text="Cifrar" />
+      <Button layoutX="208.0" layoutY="164.0" mnemonicParsing="false" onAction="#onBtnClickDecrpytText" prefHeight="25.0" prefWidth="120.0" text="Decifrar" />
+      <TextField fx:id="texto" layoutX="79.0" layoutY="126.0" prefHeight="25.0" prefWidth="180.0" />
+      <TextArea fx:id="txtResult" layoutX="79.0" layoutY="198.0" mouseTransparent="true" prefHeight="114.0" prefWidth="249.0" wrapText="true" />
+      <Label layoutX="106.0" layoutY="45.0" text="Cifra de César">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="106.0" text="Digite aqui o seu texto" />
+      <TextField fx:id="valorGiro" layoutX="268.0" layoutY="126.0" prefHeight="25.0" prefWidth="60.0" />
+      <Label layoutX="304.0" layoutY="108.0" text="Giro" />
+   </children>
+</Pane>
